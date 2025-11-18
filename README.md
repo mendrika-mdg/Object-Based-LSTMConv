@@ -7,27 +7,27 @@ This model predicts future convective core probabilities over the **Western Sahe
 
 ## Input Specification
 
-Each convective core is described using **14 features**:
+Each convective core is described using **13 features**:
 
-**Core-level (10):**  
-`lat`, `lon`, `lat_min`, `lat_max`, `lon_min`, `lon_max`, `size`, `intensity`, `lag`, `mask`
+**Core-level (9):**  
+`lat`, `lon`, `lat_min`, `lat_max`, `lon_min`, `lon_max`, `tir`, `size`, `mask`
 
 **Time features (4):**  
 `month_sin`, `month_cos`, `tod_sin`, `tod_cos`
 
 At each of the **5 time steps** (`t₀−2h`, `−1.5h`, `−1h`, `−0.5h`, `t₀`):
 
-- **50 cores** (padded if fewer available)  
-- **14 features per core**
+- **50 cores** (padded if fewer are available)  
+- **13 features per core**
 
-Final input tensor: **(5, 50, 14)** → flattened per timestep → **(5, 700)**
+Final input tensor: **(5, 50, 13)** → flattened per timestep → **(5, 650)**
 
 ---
 
 ## Model Architecture
 
 ### 1. LSTM Encoder
-- Input size: 700  
+- Input size: 650  
 - Sequence length: 5  
 - Hidden size: 512–1024  
 - Layers: 1–2  
@@ -86,7 +86,7 @@ This avoids temporal leakage and ensures robust monsoon-season evaluation.
 
 ## Summary
 
-- **Input:** `(5 timesteps × 50 cores × 14 features)`  
+- **Input:** `(5 timesteps × 50 cores × 13 features)`  
 - **Model:** `LSTM encoder → 32×32 latent map → CNN decoder → 512×512 output`  
 - **Output:** separate probability models for +1h, +3h, +6h  
 - **Loss:** BCE (pos_weight) + multi-scale FSS  

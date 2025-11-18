@@ -6,8 +6,8 @@
 #SBATCH --qos=standard
 #SBATCH --partition=standard
 #SBATCH --account=wiser-ewsa
-#SBATCH -o /home/users/mendrika/Object-Based-LSTMConv/slurm/output/%j.out
-#SBATCH -e /home/users/mendrika/Object-Based-LSTMConv/slurm/error/%j.err
+#SBATCH -o /home/users/mendrika/Object-Based-LSTMConv/slurm/submission/output/%j.out
+#SBATCH -e /home/users/mendrika/Object-Based-LSTMConv/slurm/submission/error/%j.err
 
 # Exit immediately if any command fails
 set -e
