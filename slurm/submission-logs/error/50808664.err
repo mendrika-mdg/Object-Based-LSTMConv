@@ -1,0 +1,44 @@
+[rank: 1] Seed set to 10
+[rank: 3] Seed set to 10
+[rank: 2] Seed set to 10
+[rank: 0] Seed set to 10
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+wandb: Currently logged in as: mgrakotomanga (mgrakotomanga-university-of-leeds) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.20.1
+wandb: Run data is saved locally in ./wandb/run-20251119_140825-v29qbgv7
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run t1_seed10
+wandb: ⭐️ View project at https://wandb.ai/mgrakotomanga-university-of-leeds/western_sahel_lstm_core2map
+wandb: 🚀 View run at https://wandb.ai/mgrakotomanga-university-of-leeds/western_sahel_lstm_core2map/runs/v29qbgv7
+/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gws/nopw/j04/wiser_ewsa/mrakotomanga/OB/checkpoints/lstm_core2map/t1/seed10 exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+
+  | Name      | Type                 | Params | Mode 
+-----------------------------------------------------------
+0 | lstm      | LSTM                 | 929 K  | train
+1 | map_proj  | Linear               | 4.2 M  | train
+2 | decoder   | SmoothDecoder        | 98.5 K | train
+3 | criterion | MultiScaleHybridLoss | 0      | train
+-----------------------------------------------------------
+5.2 M     Trainable params
+0         Non-trainable params
+5.2 M     Total params
+20.956    Total estimated model params size (MB)
+36        Modules in train mode
+0         Modules in eval mode
+slurmstepd: error: *** JOB 50808664 ON gpuhost012 CANCELLED AT 2025-11-19T14:33:18 ***

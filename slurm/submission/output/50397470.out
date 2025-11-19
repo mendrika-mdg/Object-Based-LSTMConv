@@ -1,5 +1,0 @@
-Computing scaling parameters from 114 training shards (LT1)...
-Total real cores processed: 3,449,619
-Scaling parameters saved to /home/users/mendrika/Object-Based-LSTMConv/outputs/scaler/scaler_realcores.pt
-Done.
-Job completed successfully.
