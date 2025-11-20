@@ -24,7 +24,7 @@ os.makedirs(SAVE_DIR, exist_ok=True)
 MASK_COL_INDEX = 12
 COLS_TO_SCALE = range(4, 12)
 
-# load scaler
+# load scaler (computed using real cores only)
 scaler = torch.load(SCALER_PATH, weights_only=False)
 mean = np.asarray(scaler["mean"])
 scale = np.asarray(scaler["scale"])
@@ -34,7 +34,7 @@ print(f"Applying to partition={PARTITION.upper()}, lead_time={LEAD_TIME}h")
 
 # list shards
 all_shards = sorted(
-    [os.path.join(SHARDS_DIR, f) for f in os.listdir(SHARDS_DIR) if f.endswith(".pt")]
+    [os.path.join(SHARDS_DIR, f) for f in os.listdir(SHARDS_DIR) if f.endswith('.pt')]
 )
 if not all_shards:
     raise FileNotFoundError(f"No shards found in {SHARDS_DIR}")
@@ -49,14 +49,8 @@ for shard_path in tqdm(all_shards, desc=f"Scaling {PARTITION}_t{LEAD_TIME}"):
     # flatten
     flat = X.reshape(-1, X.shape[-1])
 
-    # real cores
-    real_mask = flat[:, MASK_COL_INDEX] == 1
-    rows = np.where(real_mask)[0]
-
-    # scaling
-    flat[np.ix_(rows, COLS_TO_SCALE)] = (
-        (flat[np.ix_(rows, COLS_TO_SCALE)] - mean) / scale
-    )
+    # scale all cores (real + padded) using stats from real cores
+    flat[:, COLS_TO_SCALE] = (flat[:, COLS_TO_SCALE] - mean) / scale
 
     # reshape
     X_scaled = flat.reshape(X.shape)

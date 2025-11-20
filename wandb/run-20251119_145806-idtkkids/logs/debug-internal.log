@@ -1,7 +1,0 @@
-{"time":"2025-11-19T14:58:06.97769675Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20251119_145806-idtkkids/logs/debug-core.log"}
-{"time":"2025-11-19T14:58:07.220960542Z","level":"INFO","msg":"stream: created new stream","id":"idtkkids"}
-{"time":"2025-11-19T14:58:07.221010331Z","level":"INFO","msg":"stream: started","id":"idtkkids"}
-{"time":"2025-11-19T14:58:07.221039941Z","level":"INFO","msg":"handler: started","stream_id":"idtkkids"}
-{"time":"2025-11-19T14:58:07.221047111Z","level":"INFO","msg":"writer: Do: started","stream_id":"idtkkids"}
-{"time":"2025-11-19T14:58:07.22106255Z","level":"INFO","msg":"sender: started","stream_id":"idtkkids"}
-{"time":"2025-11-19T14:58:07.749073125Z","level":"INFO","msg":"Starting system monitor"}
