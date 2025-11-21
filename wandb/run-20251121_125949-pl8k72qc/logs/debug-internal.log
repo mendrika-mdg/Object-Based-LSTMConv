@@ -1,0 +1,8 @@
+{"time":"2025-11-21T12:59:49.776591669Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20251121_125949-pl8k72qc/logs/debug-core.log"}
+{"time":"2025-11-21T12:59:50.018501779Z","level":"INFO","msg":"stream: created new stream","id":"pl8k72qc"}
+{"time":"2025-11-21T12:59:50.018550398Z","level":"INFO","msg":"stream: started","id":"pl8k72qc"}
+{"time":"2025-11-21T12:59:50.018580148Z","level":"INFO","msg":"sender: started","stream_id":"pl8k72qc"}
+{"time":"2025-11-21T12:59:50.018583408Z","level":"INFO","msg":"writer: Do: started","stream_id":"pl8k72qc"}
+{"time":"2025-11-21T12:59:50.018602897Z","level":"INFO","msg":"handler: started","stream_id":"pl8k72qc"}
+{"time":"2025-11-21T12:59:50.493949556Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-21T13:53:44.790872291Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mgrakotomanga-university-of-leeds/western_sahel_latent32_dice/pl8k72qc/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}

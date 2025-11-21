@@ -1,7 +1,0 @@
-{"time":"2025-11-20T12:33:21.162687383Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20251120_123320-rnualt4o/logs/debug-core.log"}
-{"time":"2025-11-20T12:33:21.409012551Z","level":"INFO","msg":"stream: created new stream","id":"rnualt4o"}
-{"time":"2025-11-20T12:33:21.409049Z","level":"INFO","msg":"stream: started","id":"rnualt4o"}
-{"time":"2025-11-20T12:33:21.40905999Z","level":"INFO","msg":"handler: started","stream_id":"rnualt4o"}
-{"time":"2025-11-20T12:33:21.40906907Z","level":"INFO","msg":"sender: started","stream_id":"rnualt4o"}
-{"time":"2025-11-20T12:33:21.40909077Z","level":"INFO","msg":"writer: Do: started","stream_id":"rnualt4o"}
-{"time":"2025-11-20T12:33:21.889191159Z","level":"INFO","msg":"Starting system monitor"}

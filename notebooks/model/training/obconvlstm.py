@@ -104,10 +104,6 @@ class ShardDataset(IterableDataset):
                 for i in range(X.shape[0]):
                     yield X[i].float(), Y[i].float()
 
-
-# --------------------------------------------------------
-# Decoder
-# --------------------------------------------------------
 class SmoothDecoder(nn.Module):
     def __init__(self, in_channels=64, out_hw=(512, 512), dropout=0.15):
         super().__init__()

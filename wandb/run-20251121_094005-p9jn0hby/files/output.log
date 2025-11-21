@@ -1,0 +1,19 @@
+/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /gws/nopw/j04/wiser_ewsa/mrakotomanga/OB/checkpoints/lstm_core2map_hybrid/latent32/t1/seed1998 exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+
+  | Name      | Type          | Params | Mode
+----------------------------------------------------
+0 | lstm      | LSTM          | 929 K  | train
+1 | map_proj  | Linear        | 16.8 M | train
+2 | decoder   | SmoothDecoder | 98.5 K | train
+3 | criterion | HybridLoss    | 0      | train
+4 | val_auc   | BinaryAUROC   | 0      | train
+----------------------------------------------------
+17.9 M    Trainable params
+0         Non-trainable params
+17.9 M    Total params
+71.484    Total estimated model params size (MB)
+34        Modules in train mode
+0         Modules in eval mode
+Epoch 12: 100%|██████████| 3000/3000 [12:44<00:00,  3.93it/s, v_num=0hby, val_auc=0.895]
+Training complete for seed 1998                                            

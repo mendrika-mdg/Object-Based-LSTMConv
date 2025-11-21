@@ -190,7 +190,6 @@ def main():
     train_dir = f"{base}/train_t{lead}"
     val_dir = f"{base}/val_t{lead}"
 
-    # corrected directory name (latent32)
     ckpt = f"/gws/nopw/j04/wiser_ewsa/mrakotomanga/OB/checkpoints/lstm_core2map_hybrid/latent32/t{lead}/seed{seed}"
     os.makedirs(ckpt, exist_ok=True)
 

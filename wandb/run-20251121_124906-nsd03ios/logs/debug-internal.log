@@ -1,0 +1,8 @@
+{"time":"2025-11-21T12:49:06.464345524Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20251121_124906-nsd03ios/logs/debug-core.log"}
+{"time":"2025-11-21T12:49:06.706624283Z","level":"INFO","msg":"stream: created new stream","id":"nsd03ios"}
+{"time":"2025-11-21T12:49:06.706673422Z","level":"INFO","msg":"stream: started","id":"nsd03ios"}
+{"time":"2025-11-21T12:49:06.706688502Z","level":"INFO","msg":"writer: Do: started","stream_id":"nsd03ios"}
+{"time":"2025-11-21T12:49:06.706711901Z","level":"INFO","msg":"handler: started","stream_id":"nsd03ios"}
+{"time":"2025-11-21T12:49:06.706705682Z","level":"INFO","msg":"sender: started","stream_id":"nsd03ios"}
+{"time":"2025-11-21T12:49:07.253605946Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-11-21T13:53:48.721956706Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/mgrakotomanga-university-of-leeds/western_sahel_latent32_dice/nsd03ios/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
