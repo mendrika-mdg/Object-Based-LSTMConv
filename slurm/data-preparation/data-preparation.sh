@@ -17,7 +17,7 @@ export OMP_NUM_THREADS=1
 export HDF5_USE_FILE_LOCKING=FALSE
 
 year=$1
-script=/home/users/mendrika/Object-Based-LSTMConv/scripts/data-preparation/raw-data-preparation.py
+script=/home/users/mendrika/Object-Based-LSTMConv/scripts/data-preparation/raw-data-preparation-ncast.py
 
 if [ ! -f "$script" ]; then
     echo "Error: Python script not found at $script"

@@ -4,11 +4,11 @@
 JOB_SCRIPT="/home/users/mendrika/Object-Based-LSTMConv/notebooks/model/training/train-ensemble.sh"
 
 # lead times and seeds
-LEAD_TIMES=("1" "3" "6")
-SEEDS=(1 134 676 1998 2025)
+# LEAD_TIMES=("1" "3" "6")
+# SEEDS=(1 134 676 1998 2025)
 
-# LEAD_TIMES=("1" )
-# SEEDS=(10)
+LEAD_TIMES=("1" )
+SEEDS=(40 50)
 
 # loop over all combinations
 for LEAD_TIME in "${LEAD_TIMES[@]}"; do

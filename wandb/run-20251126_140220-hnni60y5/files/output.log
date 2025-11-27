@@ -1,0 +1,19 @@
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+
+  | Name        | Type                  | Params | Mode
+--------------------------------------------------------------
+0 | in_proj     | Sequential            | 1.8 K  | train
+1 | transformer | TransformerEncoder    | 793 K  | train
+2 | map_proj    | Linear                | 4.2 M  | train
+3 | decoder     | SimpleDecoder         | 3.8 M  | train
+4 | criterion   | SpatiallyEnhancedLoss | 0      | train
+5 | val_auc     | BinaryAUROC           | 0      | train
+--------------------------------------------------------------
+8.9 M     Trainable params
+0         Non-trainable params
+8.9 M     Total params
+35.435    Total estimated model params size (MB)
+73        Modules in train mode
+0         Modules in eval mode
+Epoch 7: 100%|██████████| 3000/3000 [04:28<00:00, 11.15it/s, v_num=60y5, val_fss_9=0.136, val_auc=0.850]
+Training complete for seed 10                                              
