@@ -1,0 +1,4 @@
+Found 2078 files at hour=19 UTC
+Saved pixelwise BSS map → /home/users/mendrika/Object-Based-LSTMConv/outputs/evaluation/ncast/bss/improved/pixelwise_bss_hour_19_t6.npy
+Valid pixels: 254328
+Job completed successfully.
