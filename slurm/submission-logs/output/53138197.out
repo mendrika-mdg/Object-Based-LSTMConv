@@ -1,0 +1,74 @@
+======================================================
+ Job started on host1081.jc.rl.ac.uk at Sat 29 Nov 12:11:56 GMT 2025
+======================================================
+Running ensemble nowcast inference:
+ Lead time : 6
+ Year      : 2019
+ Month     : 08
+ Hour      : 03
+======================================================
+Running on CPU with 8 threads
+Loaded 5 ensemble models on CPU
+Detected 58 inputs for 2019-08 03 UTC
+Skipping 2019-08-01 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/01/0300/Nowcast_201908010300_000.nc'
+Skipping 2019-08-01 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/01/0315/Nowcast_201908010315_000.nc'
+Skipping 2019-08-01 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/01/0330/Nowcast_201908010330_000.nc'
+Skipping 2019-08-01 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/01/0345/Nowcast_201908010345_000.nc'
+Skipping 2019-08-03 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/03/0300/Nowcast_201908030300_000.nc'
+Skipping 2019-08-03 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/03/0315/Nowcast_201908030315_000.nc'
+Skipping 2019-08-06 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/06/0300/Nowcast_201908060300_000.nc'
+Skipping 2019-08-06 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/06/0315/Nowcast_201908060315_000.nc'
+Skipping 2019-08-06 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/06/0330/Nowcast_201908060330_000.nc'
+Skipping 2019-08-06 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/06/0345/Nowcast_201908060345_000.nc'
+Skipping 2019-08-11 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/11/0300/Nowcast_201908110300_000.nc'
+Skipping 2019-08-11 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/11/0315/Nowcast_201908110315_000.nc'
+Skipping 2019-08-11 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/11/0330/Nowcast_201908110330_000.nc'
+Skipping 2019-08-11 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/11/0345/Nowcast_201908110345_000.nc'
+Skipping 2019-08-15 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/15/0300/Nowcast_201908150300_000.nc'
+Skipping 2019-08-15 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/15/0315/Nowcast_201908150315_000.nc'
+Skipping 2019-08-15 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/15/0330/Nowcast_201908150330_000.nc'
+Skipping 2019-08-15 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/15/0345/Nowcast_201908150345_000.nc'
+Skipping 2019-08-16 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/16/0300/Nowcast_201908160300_000.nc'
+Skipping 2019-08-16 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/16/0315/Nowcast_201908160315_000.nc'
+Skipping 2019-08-16 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/16/0330/Nowcast_201908160330_000.nc'
+Skipping 2019-08-16 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/16/0345/Nowcast_201908160345_000.nc'
+Skipping 2019-08-18 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/18/0300/Nowcast_201908180300_000.nc'
+Skipping 2019-08-18 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/18/0315/Nowcast_201908180315_000.nc'
+Skipping 2019-08-18 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/18/0330/Nowcast_201908180330_000.nc'
+Skipping 2019-08-18 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/18/0345/Nowcast_201908180345_000.nc'
+Skipping 2019-08-20 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/20/0300/Nowcast_201908200300_000.nc'
+Skipping 2019-08-20 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/20/0315/Nowcast_201908200315_000.nc'
+Skipping 2019-08-20 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/20/0330/Nowcast_201908200330_000.nc'
+Skipping 2019-08-20 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/20/0345/Nowcast_201908200345_000.nc'
+Skipping 2019-08-21 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/21/0300/Nowcast_201908210300_000.nc'
+Skipping 2019-08-21 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/21/0315/Nowcast_201908210315_000.nc'
+Skipping 2019-08-21 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/21/0330/Nowcast_201908210330_000.nc'
+Skipping 2019-08-21 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/21/0345/Nowcast_201908210345_000.nc'
+Skipping 2019-08-22 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/22/0300/Nowcast_201908220300_000.nc'
+Skipping 2019-08-22 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/22/0315/Nowcast_201908220315_000.nc'
+Skipping 2019-08-22 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/22/0330/Nowcast_201908220330_000.nc'
+Skipping 2019-08-22 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/22/0345/Nowcast_201908220345_000.nc'
+Skipping 2019-08-24 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/24/0300/Nowcast_201908240300_000.nc'
+Skipping 2019-08-24 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/24/0315/Nowcast_201908240315_000.nc'
+Skipping 2019-08-24 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/24/0330/Nowcast_201908240330_000.nc'
+Skipping 2019-08-24 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/24/0345/Nowcast_201908240345_000.nc'
+Skipping 2019-08-25 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/25/0300/Nowcast_201908250300_000.nc'
+Skipping 2019-08-25 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/25/0315/Nowcast_201908250315_000.nc'
+Skipping 2019-08-25 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/25/0330/Nowcast_201908250330_000.nc'
+Skipping 2019-08-25 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/25/0345/Nowcast_201908250345_000.nc'
+Skipping 2019-08-27 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/27/0345/Nowcast_201908270345_000.nc'
+Skipping 2019-08-28 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/28/0300/Nowcast_201908280300_000.nc'
+Skipping 2019-08-28 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/28/0315/Nowcast_201908280315_000.nc'
+Skipping 2019-08-28 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/28/0330/Nowcast_201908280330_000.nc'
+Skipping 2019-08-28 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/28/0345/Nowcast_201908280345_000.nc'
+Skipping 2019-08-29 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/29/0300/Nowcast_201908290300_000.nc'
+Skipping 2019-08-29 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/29/0315/Nowcast_201908290315_000.nc'
+Skipping 2019-08-29 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/29/0330/Nowcast_201908290330_000.nc'
+Skipping 2019-08-29 03:45: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/29/0345/Nowcast_201908290345_000.nc'
+Skipping 2019-08-31 03:00: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/31/0300/Nowcast_201908310300_000.nc'
+Skipping 2019-08-31 03:15: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/31/0315/Nowcast_201908310315_000.nc'
+Skipping 2019-08-31 03:30: [Errno 2] No such file or directory: '/gws/ssde/j25b/swift/nflics_nowcasts/2019/08/31/0330/Nowcast_201908310330_000.nc'
+All ensemble nowcasts completed on CPU.
+======================================================
+ Job completed successfully at Sat 29 Nov 12:12:03 GMT 2025
+======================================================

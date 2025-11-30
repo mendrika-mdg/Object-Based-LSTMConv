@@ -24,7 +24,7 @@ year=$2
 month=$3
 hour=$4
 
-script=/home/users/mendrika/Object-Based-LSTMConv/scripts/inference/predict-ensemble-ncast.py
+script=/home/users/mendrika/Object-Based-LSTMConv/scripts/inference/predict-ensemble-ncast-with-nflics.py
 
 # verify script exists
 if [ ! -f "$script" ]; then
