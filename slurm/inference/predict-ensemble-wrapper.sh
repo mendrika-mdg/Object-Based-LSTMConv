@@ -4,7 +4,7 @@
 JOB_SCRIPT="/home/users/mendrika/Object-Based-LSTMConv/slurm/inference/predict-ensemble.sh"
 
 # configuration
-YEARS=("2019")
+YEARS=("2020" "2021" "2022" "2023" "2024")
 MONTHS=("06" "07" "08" "09")
 HOURS=($(seq -w 0 23))
 LEAD_TIMES=("1" "3" "6")

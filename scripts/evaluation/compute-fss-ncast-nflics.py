@@ -73,7 +73,7 @@ for file_path in tqdm(filtered_files, desc="Computing FSS"):
     nflics = np.nan_to_num(data["nflics"].astype(np.float32))
 
     ncores = count_cores(gt)
-    if ncores < 20:
+    if ncores < 15:
         continue
 
     # compute FSS
