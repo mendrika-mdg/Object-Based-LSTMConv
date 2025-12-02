@@ -22,7 +22,7 @@ export HDF5_USE_FILE_LOCKING=FALSE
 lead_time=$1
 target_hour=$2
 
-script=/home/users/mendrika/Object-Based-LSTMConv/scripts/evaluation/compute-fss-ncast-nflics.py
+script=/home/users/mendrika/Object-Based-LSTMConv/scripts/evaluation/compute-fss-ncast-calibrated.py
 
 # Verify the script exists
 if [ ! -f "$script" ]; then

@@ -1,0 +1,14 @@
+Found 1701 files at hour=13 UTC
+
+Average FSS for hour=13 UTC (lead t+6), filtered by ≥15 cores
+  Window |  Scale(km) |        Raw |        Cal |    Persist
+----------------------------------------------------------------------
+       3 |          9 | 0.2062 | 0.1130 | 0.0040
+       9 |         27 | 0.2255 | 0.1397 | 0.0052
+      25 |         75 | 0.2683 | 0.2272 | 0.0108
+      49 |        147 | 0.3089 | 0.3685 | 0.0276
+      81 |        243 | 0.3324 | 0.5134 | 0.0614
+     121 |        363 | 0.3419 | 0.6251 | 0.1147
+
+Saved FSS summary to /work/scratch-nopw2/mendrika/OB/evaluation/ncast-calibrated/fss/fss_hour_13_t6.csv
+Job completed successfully.

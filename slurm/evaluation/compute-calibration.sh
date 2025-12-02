@@ -20,7 +20,7 @@ export HDF5_USE_FILE_LOCKING=FALSE
 # Parameters
 lead_time=$1
 
-script=/home/users/mendrika/Object-Based-LSTMConv/scripts/evaluation/compute-calibration-ncast-conditional.py
+script=/home/users/mendrika/Object-Based-LSTMConv/scripts/evaluation/compute-calibration-ncast-calibrated.py
 
 # Verify the script exists
 if [ ! -f "$script" ]; then

@@ -1,0 +1,6 @@
+Found 41040 files for lead time t+3
+
+Saved reliability to: /work/scratch-nopw2/mendrika/OB/evaluation/ncast-calibrated/reliability/rel_t3.csv
+Total raw samples: 609746944
+Total calibrated samples: 609746944
+Reliability job completed successfully.
