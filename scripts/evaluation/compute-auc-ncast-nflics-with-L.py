@@ -11,39 +11,38 @@ lead_time = sys.argv[1]
 target_hour = sys.argv[2]
 
 # directories
-base_dir = f"/work/scratch-nopw2/mendrika/OB/predictions/ncast-nflics/t{lead_time}"
-output_dir = f"/work/scratch-nopw2/mendrika/OB/evaluation/ncast-nflics/auc/L"
+base_dir = f"/work/scratch-nopw2/mendrika/OB/evaluation/predictions/ncast-nflics-full/t{lead_time}"
+output_dir = f"/work/scratch-nopw2/mendrika/OB/evaluation/ncast-nflics-full/auc"
 os.makedirs(output_dir, exist_ok=True)
 
 # map size
 map_shape = (512, 512)
 
-# NFLICS neighbourhood: 45 km, cores on 5 km grid → 9 pixels
-L_pixels = 9
+# neighbourhood size for GT and persistence
+# NFLICS already has its own neighbourhood applied – DO NOT filter it again
+L_pixels = 8
 
-# recursive search
+# recursive search for .pt files
 all_files = []
 for root, _, files in os.walk(base_dir):
     for f in files:
         if f.endswith(".pt"):
             all_files.append(os.path.join(root, f))
 
-# extract hour
 def extract_hour(path):
     name = os.path.basename(path)
     parts = name.split("_")
     if len(parts) < 3:
         return None
-    timepart = parts[2].replace(".pt", "")
-    if len(timepart) < 2:
+    tp = parts[2].replace(".pt", "")
+    if len(tp) < 2:
         return None
-    return timepart[:2]
+    return tp[:2]
 
-# filter by hour
 filtered_files = [p for p in all_files if extract_hour(p) == target_hour]
 print(f"Found {len(filtered_files)} files at hour={target_hour} UTC")
 
-# storage
+# containers
 all_gt = []
 all_model = []
 all_pers = []
@@ -57,15 +56,20 @@ for file_path in tqdm(filtered_files, desc="Computing AUC"):
         print(f"Skipping {file_path}: {e}")
         continue
 
+    # raw arrays
     gt = np.nan_to_num(data["gt"].cpu().numpy().astype(np.float32))
     model = np.nan_to_num(data["mean"].cpu().numpy().astype(np.float32))
     pers = np.nan_to_num(data["gt0"].cpu().numpy().astype(np.float32))
     nflics = np.nan_to_num(data["nflics"].astype(np.float32))
 
-    # apply NFLICS-style neighbourhood on GT
-    gt = (gt > 0).astype(np.float32)
-    gt = maximum_filter(gt, size=L_pixels).astype(np.float32)
+    # apply neighbourhood max filter to GT and persistence only
+    gt = maximum_filter(gt, size=L_pixels)
+    pers = maximum_filter(pers, size=L_pixels)
 
+    # threshold GT to binary
+    gt = (gt > 0).astype(np.float32)
+
+    # shape check
     for name, arr in zip(
         ["gt", "model", "persistence", "nflics"],
         [gt, model, pers, nflics],
@@ -73,22 +77,19 @@ for file_path in tqdm(filtered_files, desc="Computing AUC"):
         if arr.shape != map_shape:
             raise ValueError(f"{name} has shape {arr.shape}, expected {map_shape}")
 
+    # flatten
     all_gt.append(gt.reshape(-1))
     all_model.append(model.reshape(-1))
     all_pers.append(pers.reshape(-1))
-    all_nflics.append(nflics.reshape(-1))
+    all_nflics.append(nflics.reshape(-1))  # DO NOT filter nflics again!
 
-# concatenate
+# concatenate all
 all_gt = np.concatenate(all_gt)
 all_model = np.concatenate(all_model)
 all_pers = np.concatenate(all_pers)
 all_nflics = np.concatenate(all_nflics)
 
-# ensure gt is binary (already ensured, but safe)
-if np.nanmax(all_gt) > 1.5:
-    all_gt = (all_gt > 0).astype(np.float32)
-
-# compute aucs
+# compute AUCs
 auc_model = roc_auc_score(all_gt, all_model)
 auc_persistence = roc_auc_score(all_gt, all_pers)
 auc_nflics = roc_auc_score(all_gt, all_nflics)
