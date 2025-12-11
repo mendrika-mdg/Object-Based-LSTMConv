@@ -11,8 +11,8 @@ lead_time = sys.argv[1]
 target_hour = sys.argv[2]
 
 # directories
-base_dir = f"/work/scratch-nopw2/mendrika/OB/evaluation/predictions/ncast-nflics-full/t{lead_time}"
-output_dir = f"/work/scratch-nopw2/mendrika/OB/evaluation/ncast-nflics-full/auc"
+base_dir = f"/work/scratch-nopw2/mendrika/OB/evaluation/predictions/ncast-nflics-full-corrected/t{lead_time}"
+output_dir = f"/work/scratch-nopw2/mendrika/OB/evaluation/ncast-nflics-full-corrected/auc"
 os.makedirs(output_dir, exist_ok=True)
 
 # map size

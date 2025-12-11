@@ -21,7 +21,7 @@ export HDF5_USE_FILE_LOCKING=FALSE
 # Parameters
 lead_time=$1
 
-script=/home/users/mendrika/Object-Based-LSTMConv/scripts/evaluation/compute-auc-ncast-full.py
+script=/home/users/mendrika/Object-Based-LSTMConv/scripts/evaluation/compute-auc-ncast-nflics-full.py
 
 # Verify the script exists
 if [ ! -f "$script" ]; then

@@ -6,7 +6,6 @@ import numpy as np
 from tqdm import tqdm
 from scipy.ndimage import zoom
 from netCDF4 import Dataset
-from scipy.ndimage import maximum_filter
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -25,7 +24,7 @@ HOUR  = sys.argv[4]
 ENSEMBLE_DIR = f"/gws/nopw/j04/wiser_ewsa/mrakotomanga/OB/checkpoints/WS/transformer/t{LEAD_TIME}"
 SCALER_PATH  = "/home/users/mendrika/Object-Based-LSTMConv/outputs/scaler/scaler_realcores.pt"
 INPUT_ROOT   = "/work/scratch-nopw2/mendrika/OB/raw/inputs_t0"
-OUTPUT_BASE  = f"/work/scratch-nopw2/mendrika/OB/evaluation/predictions/ncast-nflics-full/t{LEAD_TIME}"
+OUTPUT_BASE  = f"/work/scratch-nopw2/mendrika/OB/evaluation/predictions/ncast-nflics-full-corrected/t{LEAD_TIME}"
 
 os.makedirs(OUTPUT_BASE, exist_ok=True)
 OUTPUT_DIR = os.path.join(OUTPUT_BASE, f"{YEAR}{MONTH}", f"{HOUR}")
@@ -141,10 +140,7 @@ for year, month, day, hour, minute in tqdm(input_files, desc="Predicting"):
         gt, persistence = load_output(year, month, day, hour, minute, LEAD_TIME)
 
         nf = load_NFLICS_nowcast(year, month, day, hour, minute, LEAD_TIME)
-
-        # flip to match south→north lat grid
-        nf = np.flipud(nf)
-
+    
         nf[nf <= 0] = 0.0
         nf = nf / 100.0
         nf[np.isnan(nf)] = 0.0

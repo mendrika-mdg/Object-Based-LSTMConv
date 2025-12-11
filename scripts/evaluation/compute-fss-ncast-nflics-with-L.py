@@ -10,7 +10,7 @@ import scipy.ndimage as nd
 
 lead_time = sys.argv[1]
 target_hour = sys.argv[2]
-base_dir = f"/work/scratch-nopw2/mendrika/OB/evaluation/predictions/ncast-nflics-full/t{lead_time}"
+base_dir = f"/work/scratch-nopw2/mendrika/OB/evaluation/predictions/ncast-nflics-full-corrected/t{lead_time}"
 
 PIXEL_SIZE_KM = 3      # actual MSG output grid
 GT_FILTER_SIZE = 8       # 25 km max filter → 25 / 3.1 ≈ 8 pixels
@@ -110,7 +110,7 @@ for w in windows:
     })
 
 # save CSV
-output_csv = f"/work/scratch-nopw2/mendrika/OB/evaluation/ncast-nflics-full/fss/fss_hour_{target_hour}_t{lead_time}.csv"
+output_csv = f"/work/scratch-nopw2/mendrika/OB/evaluation/ncast-nflics-full-corrected/fss/fss_hour_{target_hour}_t{lead_time}.csv"
 os.makedirs(os.path.dirname(output_csv), exist_ok=True)
 pd.DataFrame(rows).to_csv(output_csv, index=False)
 
