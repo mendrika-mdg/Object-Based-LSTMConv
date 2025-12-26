@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/users/mendrika/Object-Based-LSTMConv/scripts/data-preparation/raw-data-preparation-africa.py", line 8, in <module>
+    print(f"Scanning {YEAR_PATH}", flush=True)
+                      ^^^^^^^^^
+NameError: name 'YEAR_PATH' is not defined

@@ -1,0 +1,45 @@
+Scanning /gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005
+34309
+YEAR = 2005
+Total files found: 34309
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '00', 'minute': '00'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312200.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312230.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312300.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312330.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010000.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010030.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010100.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010130.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010200.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010300.nc']
+No core in the domain for 20050101_0000
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '00', 'minute': '15'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312215.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312245.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312315.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312345.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010015.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010045.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010115.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010145.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010215.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010315.nc']
+No core in the domain for 20050101_0015
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '00', 'minute': '30'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312230.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312300.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312330.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010000.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010030.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010100.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010130.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010200.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010230.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010330.nc']
+No core in the domain for 20050101_0030
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '00', 'minute': '45'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312245.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312315.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312345.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010015.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010045.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010115.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010145.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010215.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010245.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010345.nc']
+No core in the domain for 20050101_0045
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '01', 'minute': '00'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312300.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312330.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010000.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010030.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010100.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010130.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010200.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010230.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010300.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010400.nc']
+No core in the domain for 20050101_0100
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '01', 'minute': '15'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312315.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312345.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010015.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010045.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010115.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010145.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010215.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010245.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010315.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010415.nc']
+No core in the domain for 20050101_0115
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '01', 'minute': '30'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312330.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010000.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010030.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010100.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010130.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010200.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010230.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010300.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010330.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010430.nc']
+No core in the domain for 20050101_0130
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '01', 'minute': '45'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2004/12/200412312345.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010015.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010045.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010115.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010145.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010215.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010245.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010315.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010345.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010445.nc']
+No core in the domain for 20050101_0145
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '02', 'minute': '00'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010000.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010030.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010100.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010130.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010200.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010230.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010300.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010330.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010400.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010500.nc']
+No core in the domain for 20050101_0200
+{'year': '2005', 'month': '01', 'day': '01', 'hour': '02', 'minute': '15'}
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010015.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010045.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010115.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010145.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010215.nc']
+['/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010245.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010315.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010345.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010415.nc', '/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/2005/01/200501010515.nc']
+No core in the domain for 20050101_0215
+Job completed successfully.
