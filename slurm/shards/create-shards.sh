@@ -1,9 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=shard-creation
-#SBATCH --time=24:00:00
-#SBATCH --mem=64G
-#SBATCH --qos=standard
-#SBATCH --partition=standard
+#SBATCH --partition=debug
+#SBATCH --qos=debug
+#SBATCH --time=01:00:00
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
 #SBATCH --account=wiser-ewsa
 #SBATCH -o /home/users/mendrika/Object-Based-LSTMConv/slurm/submission-logs/output/%j.out
 #SBATCH -e /home/users/mendrika/Object-Based-LSTMConv/slurm/submission-logs/error/%j.err
@@ -23,7 +24,7 @@ partition=$1
 lead_time=$2
 
 # path to python script
-script=/home/users/mendrika/Object-Based-LSTMConv/scripts/shards/create-shards.py
+script=/home/users/mendrika/Object-Based-LSTMConv/scripts/shards/create-shards-africa.py
 
 # check script exists
 if [ ! -f "$script" ]; then

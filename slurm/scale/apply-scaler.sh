@@ -5,8 +5,8 @@
 #SBATCH --qos=standard
 #SBATCH --partition=standard
 #SBATCH --account=wiser-ewsa
-#SBATCH -o /home/users/mendrika/Object-Based-LSTMConv/slurm/submission-logs/output/%j.out
-#SBATCH -e /home/users/mendrika/Object-Based-LSTMConv/slurm/submission-logs/error/%j.err
+#SBATCH -o /home/users/mendrika/Object-Based-LSTMConv/slurm/submission/output/%j.out
+#SBATCH -e /home/users/mendrika/Object-Based-LSTMConv/slurm/submission/error/%j.err
 
 set -e
 
@@ -20,10 +20,9 @@ export HDF5_USE_FILE_LOCKING=FALSE
 
 # read args
 partition=$1
-lead_time=$2
 
 # path to python script
-script=/home/users/mendrika/Object-Based-LSTMConv/scripts/data-preparation/apply-scaler.py
+script=/home/users/mendrika/Object-Based-LSTMConv/scripts/data-preparation/apply-scaler-africa.py
 
 # check script exists
 if [ ! -f "$script" ]; then
@@ -32,6 +31,6 @@ if [ ! -f "$script" ]; then
 fi
 
 # run
-python "$script" "$partition" "$lead_time"
+python "$script" "$partition"
 
 echo "Job completed successfully."

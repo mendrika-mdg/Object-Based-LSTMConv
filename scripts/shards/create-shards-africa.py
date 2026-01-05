@@ -1,40 +1,53 @@
 import os
 import sys
+import json
 import torch
 import numpy as np
 from tqdm import tqdm
 
-# Args
-PARTITION = sys.argv[1]               # train / val / test
-LEAD_TIME = int(sys.argv[2])          # minutes
+PARTITION = sys.argv[1]        # train / val / test
+LEAD_TIME = int(sys.argv[2])   # minutes
 
-# Paths
-BASE_DIR = "/work/scratch-nopw2/mendrika/pancast/raw"
-RAW_INPUT_DIR = f"{BASE_DIR}/inputs_t0"
-RAW_TARGET_DIR = f"{BASE_DIR}/targets_t{LEAD_TIME:03d}min"
-SPLIT_FILE = f"/home/users/mendrika/Object-Based-LSTMConv/outputs/data-split/{PARTITION}_files.txt"
-SHARDS_DIR = f"{BASE_DIR}/shards/t{LEAD_TIME:03d}min/{PARTITION}"
+SPLIT_JSON = "/home/users/mendrika/Object-Based-LSTMConv/outputs/data-split/input_splits.json"
+SCALER_PATH = "/home/users/mendrika/Object-Based-LSTMConv/outputs/scaler-africa/scaler_realcores_online.pt"
 
+SHARDS_DIR = f"/gws/ssde/j25b/swift/mendrika/pancast/shards/t{LEAD_TIME:03d}min/{PARTITION}"
 os.makedirs(SHARDS_DIR, exist_ok=True)
 
-FILES_PER_SHARD = 1000
+FILES_PER_SHARD = 200
 
 print(f"Creating shards | partition={PARTITION.upper()} | lead={LEAD_TIME} min")
-print(f"Input dir : {RAW_INPUT_DIR}")
-print(f"Target dir: {RAW_TARGET_DIR}")
 print(f"Shard dir : {SHARDS_DIR}")
 
-# Load file list
-with open(SPLIT_FILE) as f:
-    files = [line.strip() for line in f if line.strip()]
+# feature layout
+# [month_sin, month_cos, tod_sin, tod_cos,
+#  lat, lon, lat_min, lat_max, lon_min, lon_max,
+#  tir, size, mask]
 
+COLS_TO_SCALE = list(range(4, 12))
+
+# load scaler (fitted on real cores only)
+scaler = torch.load(SCALER_PATH, map_location="cpu", weights_only=False)
+mean = torch.tensor(scaler["mean"], dtype=torch.float32)
+scale = torch.tensor(scaler["scale"], dtype=torch.float32)
+
+# Load split lists
+with open(SPLIT_JSON, "r") as f:
+    splits = json.load(f)
+
+files = splits[PARTITION]
 print(f"Total files listed: {len(files):,}")
 
-# Buffers
 X_buf, Y_buf, ID_buf = [], [], []
 shard_idx = 0
 n_saved = 0
 n_skipped = 0
+
+def apply_scaler(x):
+    T, N, F = x.shape
+    flat = x.view(T * N, F)
+    flat[:, COLS_TO_SCALE] = (flat[:, COLS_TO_SCALE] - mean) / scale
+    return flat.view(T, N, F)
 
 def flush_shard():
     global shard_idx, X_buf, Y_buf, ID_buf, n_saved
@@ -58,7 +71,6 @@ def flush_shard():
     shard_idx += 1
     X_buf, Y_buf, ID_buf = [], [], []
 
-# Main loop
 for fpath in tqdm(files, desc="Sharding"):
     try:
         data_in = torch.load(fpath, map_location="cpu")
@@ -74,9 +86,10 @@ for fpath in tqdm(files, desc="Sharding"):
 
         nowcast_id = data_in.get("nowcast_origin", os.path.basename(fpath))
 
-        # Load target
-        fname = os.path.basename(fpath).replace("input-", "target-")
-        target_path = os.path.join(RAW_TARGET_DIR, fname)
+        parent_dir = os.path.dirname(os.path.dirname(fpath))
+        target_dir = os.path.join(parent_dir, f"targets_t{LEAD_TIME:03d}min")
+        target_name = os.path.basename(fpath).replace("input-", "target-")
+        target_path = os.path.join(target_dir, target_name)
 
         if not os.path.exists(target_path):
             n_skipped += 1
@@ -92,7 +105,9 @@ for fpath in tqdm(files, desc="Sharding"):
         if y.ndim != 2:
             y = y.squeeze()
 
-        # Convert to NumPy
+        # apply scaling here
+        x = apply_scaler(x)
+
         X_buf.append(x.cpu().numpy().astype(np.float32))
         Y_buf.append(y.cpu().numpy().astype(np.uint8))
         ID_buf.append(nowcast_id)
@@ -104,7 +119,6 @@ for fpath in tqdm(files, desc="Sharding"):
         print(f"Error processing {fpath}: {e}")
         n_skipped += 1
 
-# Flush remainder
 flush_shard()
 
 print(f"Finished sharding {PARTITION.upper()} | LT={LEAD_TIME} min")

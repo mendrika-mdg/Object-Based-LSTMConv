@@ -1,18 +1,19 @@
 #!/bin/bash
-# launcher for data shard scaling
+set -euo pipefail
 
 JOB_SCRIPT="/home/users/mendrika/Object-Based-LSTMConv/slurm/scale/apply-scaler.sh"
 
-# lead times and partitions
-LEAD_TIMES=("0" "1" "3" "6")
+if [ ! -f "$JOB_SCRIPT" ]; then
+    echo "Job script not found: $JOB_SCRIPT"
+    exit 1
+fi
+
 PARTITIONS=("train" "val")
 
-for LEAD_TIME in "${LEAD_TIMES[@]}"; do
-    for PARTITION in "${PARTITIONS[@]}"; do
-        echo "Submitting job for partition=${PARTITION}, lead_time=${LEAD_TIME}..."
-        sbatch -J "${PARTITION}${LEAD_TIME}" "$JOB_SCRIPT" "$PARTITION" "$LEAD_TIME"
-        sleep 1
-    done
+for PARTITION in "${PARTITIONS[@]}"; do
+    echo "Submitting job for partition=${PARTITION}"
+    sbatch -J "scale_${PARTITION}" "$JOB_SCRIPT" "$PARTITION"
+    sleep 1
 done
 
 echo "All jobs submitted successfully."

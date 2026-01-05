@@ -1,0 +1,8 @@
+Running train shard creation:
+  partition  = train
+  lead time  = 090 min
+  years      = 2008–2009
+Creating shards | partition=TRAIN | lead=90 min
+Year filter        : 2008–2009
+Shard dir          : /gws/ssde/j25b/swift/mendrika/pancast/shards/t090min/train/2008_2009
+Total files listed : 608,418

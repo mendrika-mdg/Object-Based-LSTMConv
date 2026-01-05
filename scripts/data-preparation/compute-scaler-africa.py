@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 LEAD_TIME = "1"
 
 BASE_DIR = "/work/scratch-nopw2/mendrika/pancast/raw"
-SHARDS_DIR = f"{BASE_DIR}/shards/t{LEAD_TIME:03d}min/{PARTITION}"
+SHARDS_DIR = f"{BASE_DIR}/shards/t{LEAD_TIME:03d}min/train"
 SAVE_DIR = f"/home/users/mendrika/Object-Based-LSTMConv/outputs/scaler-africa"
 
 os.makedirs(SAVE_DIR, exist_ok=True)

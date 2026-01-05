@@ -1,0 +1,153 @@
+[rank: 0] Seed set to 676
+[rank: 2] Seed set to 676
+[rank: 1] Seed set to 676
+[rank: 3] Seed set to 676
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+wandb: Currently logged in as: mgrakotomanga (mgrakotomanga-university-of-leeds) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.20.1
+wandb: Run data is saved locally in ./wandb/run-20260103_162152-yqrvcywk
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run t90_seed676_lr7e-05
+wandb: ⭐️ View project at https://wandb.ai/mgrakotomanga-university-of-leeds/dev-pancast
+wandb: 🚀 View run at https://wandb.ai/mgrakotomanga-university-of-leeds/dev-pancast/runs/yqrvcywk
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+
+  | Name        | Type                  | Params | Mode 
+--------------------------------------------------------------
+0 | in_proj     | Sequential            | 1.8 K  | train
+1 | transformer | TransformerEncoder    | 793 K  | train
+2 | map_proj    | Linear                | 4.2 M  | train
+3 | decoder     | SimpleDecoder         | 3.8 M  | train
+4 | criterion   | SpatiallyEnhancedLoss | 0      | train
+5 | val_auc     | BinaryAUROC           | 0      | train
+--------------------------------------------------------------
+8.9 M     Trainable params
+0         Non-trainable params
+8.9 M     Total params
+35.435    Total estimated model params size (MB)
+73        Modules in train mode
+0         Modules in eval mode
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/home/users/mendrika/Object-Based-LSTMConv/notebooks/model/training/pancast.py", line 263, in <module>
+[rank2]:     main()
+[rank2]:   File "/home/users/mendrika/Object-Based-LSTMConv/notebooks/model/training/pancast.py", line 259, in main
+[rank2]:     trainer.fit(model, train_dl, val_dl)
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 561, in fit
+[rank2]:     call._call_and_handle_interrupt(
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 47, in _call_and_handle_interrupt
+[rank2]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank2]:     return function(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 599, in _fit_impl
+[rank2]:     self._run(model, ckpt_path=ckpt_path)
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 1012, in _run
+[rank2]:     results = self._run_stage()
+[rank2]:               ^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 1056, in _run_stage
+[rank2]:     self.fit_loop.run()
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/loops/fit_loop.py", line 216, in run
+[rank2]:     self.advance()
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/loops/fit_loop.py", line 455, in advance
+[rank2]:     self.epoch_loop.run(self._data_fetcher)
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 150, in run
+[rank2]:     self.advance(data_fetcher)
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 282, in advance
+[rank2]:     batch, _, __ = next(data_fetcher)
+[rank2]:                    ^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/loops/fetchers.py", line 134, in __next__
+[rank2]:     batch = super().__next__()
+[rank2]:             ^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/loops/fetchers.py", line 61, in __next__
+[rank2]:     batch = next(self.iterator)
+[rank2]:             ^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/utilities/combined_loader.py", line 341, in __next__
+[rank2]:     out = next(self._iterator)
+[rank2]:           ^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/pytorch_lightning/utilities/combined_loader.py", line 78, in __next__
+[rank2]:     out[i] = next(self.iterators[i])
+[rank2]:              ^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 733, in __next__
+[rank2]:     data = self._next_data()
+[rank2]:            ^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 1488, in _next_data
+[rank2]:     return self._process_data(data, worker_id)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 1550, in _process_data
+[rank2]:     data.reraise()
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/_utils.py", line 750, in reraise
+[rank2]:     raise exception
+[rank2]: RuntimeError: Caught RuntimeError in DataLoader worker process 3.
+[rank2]: Original Traceback (most recent call last):
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/utils/data/_utils/worker.py", line 349, in _worker_loop
+[rank2]:     data = fetcher.fetch(index)  # type: ignore[possibly-undefined]
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 33, in fetch
+[rank2]:     data.append(next(self.dataset_iter))
+[rank2]:                 ^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/Object-Based-LSTMConv/notebooks/model/training/pancast.py", line 77, in __iter__
+[rank2]:     d = torch.load(f, map_location="cpu")
+[rank2]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/serialization.py", line 1486, in load
+[rank2]:     with _open_zipfile_reader(opened_file) as opened_zipfile:
+[rank2]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/serialization.py", line 771, in __init__
+[rank2]:     super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+[rank2]:                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]: RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+
+W0103 16:34:10.945000 3835204 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3835223 closing signal SIGTERM
+W0103 16:34:10.946000 3835204 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3835224 closing signal SIGTERM
+W0103 16:34:10.947000 3835204 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3835226 closing signal SIGTERM
+W0103 16:34:40.947000 3835204 torch/distributed/elastic/multiprocessing/api.py:919] Unable to shutdown process 3835223 via 15, forcefully exiting via 9
+W0103 16:34:41.411000 3835204 torch/distributed/elastic/multiprocessing/api.py:919] Unable to shutdown process 3835224 via 15, forcefully exiting via 9
+W0103 16:34:41.872000 3835204 torch/distributed/elastic/multiprocessing/api.py:919] Unable to shutdown process 3835226 via 15, forcefully exiting via 9
+E0103 16:34:42.808000 3835204 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 2 (pid: 3835225) of binary: /home/users/mendrika/virtual-env/DeepLearning/bin/python
+Traceback (most recent call last):
+  File "/home/users/mendrika/virtual-env/DeepLearning/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/users/mendrika/virtual-env/DeepLearning/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+/home/users/mendrika/Object-Based-LSTMConv/notebooks/model/training/pancast.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-01-03_16:34:10
+  host      : gpuhost013.jc.rl.ac.uk
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 3835225)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

@@ -316,6 +316,12 @@ for file_t in all_files[:]:
         for m in lead_times
     }
 
+    # Skip if this sample is already fully written
+    if os.path.exists(INPUT_LT0) and all(
+        os.path.exists(p) for p in OUTPUT_PATHS.values()
+    ):
+        continue
+
     # create input directory
     os.makedirs(os.path.dirname(INPUT_LT0), exist_ok=True)
 

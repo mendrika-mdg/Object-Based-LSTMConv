@@ -4,8 +4,8 @@
 JOB_SCRIPT="/home/users/mendrika/Object-Based-LSTMConv/slurm/shards/create-shards.sh"
 
 # lead times and partitions
-LEAD_TIMES=("0" "1" "3" "6")
-PARTITIONS=("train" "val")
+LEAD_TIMES=("030" "060" "090" "120")
+PARTITIONS=("val")
 
 for LEAD_TIME in "${LEAD_TIMES[@]}"; do
     for PARTITION in "${PARTITIONS[@]}"; do
@@ -16,3 +16,4 @@ for LEAD_TIME in "${LEAD_TIMES[@]}"; do
 done
 
 echo "All jobs submitted successfully."
+
