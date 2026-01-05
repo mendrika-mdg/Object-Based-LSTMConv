@@ -1,6 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
+import streamlit
 from netCDF4 import Dataset                             
 import numpy as np            
 
@@ -20,7 +18,6 @@ from datetime import datetime, timedelta
 import os
 from scipy.ndimage import gaussian_filter
 from matplotlib.colors import ListedColormap
-
 
 sys.path.append("/home/users/mendrika/Object-Based-LSTMConv/notebooks/model/training")
 from pancast import Core2MapModel
@@ -223,79 +220,6 @@ gts = {
 }
 
 
-fig, axes = plt.subplots(
-    1, 4,
-    figsize=(20, 6),
-    subplot_kw={"projection": ccrs.PlateCarree()},
-    dpi=300,
-    constrained_layout=True
-)
-
 lead_times = [30, 60, 90, 120]
 extent = (-18, 51, -35, 24)
 
-for idx, lead_time in enumerate(lead_times):
-
-    ax = axes[idx]
-
-    if idx == 0:
-        ax.set_ylabel("Latitude", fontsize=11)
-    else:
-        ax.set_ylabel("")
-        ax.set_yticks([])
-
-    ax.set_title(f"t₀+{lead_time} min", fontsize=12, weight="bold")
-
-    ax.set_extent(extent, crs=ccrs.PlateCarree())
-
-    ax.add_feature(cfeature.LAND, facecolor="white", edgecolor="white", linewidth=0.5)
-    ax.add_feature(cfeature.OCEAN, facecolor="lightblue")
-    ax.add_feature(cfeature.COASTLINE, edgecolor="black", linewidth=0.6)
-    ax.add_feature(cfeature.BORDERS, edgecolor="white", linewidth=0.2)
-
-    gl = ax.gridlines(draw_labels=True, linestyle="--", linewidth=0.1, 
-                    xlocs=np.arange(round(extent[0]), round(extent[1]), 10),
-                    ylocs=np.arange(round(extent[-2]), round(extent[-1]), 10)
-                    )
-
-    gl.top_labels = False
-    gl.right_labels = False
-    if idx != 0:
-        gl.ylabel_style = {"size": 0}
-
-    pred = preds[lead_time]
-    gt = gts[lead_time]
-
-    masked = np.ma.masked_where(pred <= 0, pred)
-
-    im = ax.pcolormesh(
-        lons, lats, masked.squeeze(),
-        cmap="viridis",
-        vmin=0,
-        vmax=np.max(masked),
-        transform=ccrs.PlateCarree(),
-        zorder=1
-    )
-
-    gt_s = gaussian_filter(gt.astype(float), sigma=0.4)
-
-    ax.contour(
-        lons, lats, gt_s,
-        levels=[0.5],
-        colors="red",
-        linewidths=1.5,
-        transform=ccrs.PlateCarree(),
-        zorder=5
-    )
-
-
-cbar = fig.colorbar(
-    im,
-    ax=axes,
-    orientation="vertical",
-    fraction=0.009,
-    pad=0.02
-)
-cbar.set_label("Probability of convective cores", fontsize=11)
-
-plt.show()
