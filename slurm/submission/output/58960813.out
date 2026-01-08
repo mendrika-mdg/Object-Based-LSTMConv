@@ -1,0 +1,405 @@
+Scanning /gws/ssde/j25b/swift/rt_cores/2025
+YEAR = 2025
+Total files found: 18587
+Missing required lag files for 20250129_0915
+Missing required lag files for 20250129_0930
+Missing required lag files for 20250129_0945
+Missing required lag files for 20250129_1000
+Missing required lag files for 20250129_1015
+Missing required lag files for 20250129_1030
+Missing required lag files for 20250129_1045
+Missing required lag files for 20250129_1100
+Failed reading t0 file for 20250129_1115: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1130: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1145: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1200: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1215: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1230: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1245: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1300: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1315: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1330: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1345: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1400: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1415: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1430: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1445: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1500: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1515: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1530: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1545: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1600: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1615: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1630: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1645: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1700: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1715: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1730: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1745: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1800: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1815: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1830: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1845: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1900: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1915: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1930: Pmax_lat not found in /
+Failed reading t0 file for 20250129_1945: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2000: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2015: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2030: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2045: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2100: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2115: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2130: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2145: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2200: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2215: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2230: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2245: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2300: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2315: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2330: Pmax_lat not found in /
+Failed reading t0 file for 20250129_2345: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0000: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0015: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0030: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0045: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0100: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0115: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0130: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0145: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0200: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0215: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0230: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0245: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0300: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0315: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0330: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0345: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0400: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0415: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0430: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0445: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0500: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0515: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0530: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0545: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0600: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0615: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0630: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0645: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0700: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0715: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0730: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0745: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0800: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0815: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0830: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0845: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0900: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0915: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0930: Pmax_lat not found in /
+Failed reading t0 file for 20250130_0945: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1000: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1015: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1030: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1045: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1100: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1115: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1130: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1145: Pmax_lat not found in /
+Error processing /gws/ssde/j25b/swift/rt_cores/2025/01/30/1000/Convective_struct_extended_202501301000_000.nc: Pmax_lat not found in /
+Incomplete lag sequence for 20250130_1200
+Failed reading t0 file for 20250130_1215: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1230: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1245: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1300: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1315: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1330: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1345: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1400: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1415: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1430: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1445: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1500: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1515: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1530: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1545: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1600: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1615: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1630: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1645: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1700: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1715: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1730: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1745: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1800: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1815: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1830: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1845: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1900: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1915: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1930: Pmax_lat not found in /
+Failed reading t0 file for 20250130_1945: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2000: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2015: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2030: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2045: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2100: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2115: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2130: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2145: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2200: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2215: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2230: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2245: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2300: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2315: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2330: Pmax_lat not found in /
+Failed reading t0 file for 20250130_2345: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0000: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0015: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0030: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0045: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0100: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0115: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0130: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0145: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0200: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0215: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0230: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0245: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0300: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0315: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0330: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0345: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0400: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0415: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0430: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0445: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0500: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0515: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0530: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0545: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0600: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0615: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0630: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0645: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0700: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0715: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0730: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0745: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0800: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0815: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0830: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0845: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0900: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0915: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0930: Pmax_lat not found in /
+Failed reading t0 file for 20250131_0945: Pmax_lat not found in /
+Failed reading t0 file for 20250131_1000: Pmax_lat not found in /
+Failed reading t0 file for 20250131_1015: Pmax_lat not found in /
+Failed reading t0 file for 20250131_1030: Pmax_lat not found in /
+Failed reading t0 file for 20250131_1045: Pmax_lat not found in /
+Error processing /gws/ssde/j25b/swift/rt_cores/2025/01/31/0900/Convective_struct_extended_202501310900_000.nc: Pmax_lat not found in /
+Incomplete lag sequence for 20250131_1100
+Error processing /gws/ssde/j25b/swift/rt_cores/2025/01/31/0915/Convective_struct_extended_202501310915_000.nc: Pmax_lat not found in /
+Incomplete lag sequence for 20250131_1115
+Error processing /gws/ssde/j25b/swift/rt_cores/2025/01/31/0930/Convective_struct_extended_202501310930_000.nc: Pmax_lat not found in /
+Incomplete lag sequence for 20250131_1130
+Error processing /gws/ssde/j25b/swift/rt_cores/2025/01/31/0945/Convective_struct_extended_202501310945_000.nc: Pmax_lat not found in /
+Incomplete lag sequence for 20250131_1145
+Error processing /gws/ssde/j25b/swift/rt_cores/2025/01/31/1000/Convective_struct_extended_202501311000_000.nc: Pmax_lat not found in /
+Incomplete lag sequence for 20250131_1200
+Error processing /gws/ssde/j25b/swift/rt_cores/2025/01/31/1015/Convective_struct_extended_202501311015_000.nc: Pmax_lat not found in /
+Incomplete lag sequence for 20250131_1215
+Error processing /gws/ssde/j25b/swift/rt_cores/2025/01/31/1030/Convective_struct_extended_202501311030_000.nc: Pmax_lat not found in /
+Incomplete lag sequence for 20250131_1230
+Error processing /gws/ssde/j25b/swift/rt_cores/2025/01/31/1045/Convective_struct_extended_202501311045_000.nc: Pmax_lat not found in /
+Incomplete lag sequence for 20250131_1245
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1300.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1315.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1330.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1345.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1400.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1415.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1430.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1445.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1500.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1515.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1530.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1545.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1600.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1615.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1630.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1645.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1700.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1715.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1730.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1745.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1800.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1815.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1830.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1845.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1900.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1915.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1930.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_1945.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2000.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2015.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2030.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2045.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2100.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2115.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2130.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2145.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2200.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2215.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2230.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2245.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2300.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2315.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2330.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250131_2345.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0000.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0015.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0030.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0045.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0100.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0115.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0130.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0145.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0200.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0215.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0230.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0245.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0300.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0315.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0330.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0345.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0400.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0415.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0430.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0445.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0500.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0515.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0530.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0545.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0600.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0615.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0630.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0645.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0700.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0715.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0730.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0745.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0800.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0815.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0830.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0845.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0900.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0915.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0930.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_0945.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1000.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1015.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1030.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1045.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1100.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1115.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1130.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1145.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1200.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1215.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1230.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1245.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1300.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1315.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1330.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1345.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1400.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1415.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1430.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1445.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1500.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1515.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1530.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1545.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1600.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1615.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1630.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1645.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1700.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1715.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1730.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1745.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1800.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1815.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1830.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1845.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1900.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1915.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1930.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_1945.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2000.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2015.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2030.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2045.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2100.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2115.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2130.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2145.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2200.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2215.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2230.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2245.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2300.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2315.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2330.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250201_2345.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0000.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0015.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0030.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0045.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0100.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0115.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0130.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0145.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0200.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0215.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0230.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0245.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0300.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0315.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0330.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0345.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0400.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0415.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0430.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0445.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0500.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0515.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0530.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0545.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0600.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0615.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0630.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0645.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0700.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0715.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0730.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0745.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0800.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0815.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0830.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0845.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0900.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0915.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0930.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_0945.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_1000.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_1015.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_1030.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_1045.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_1100.pt
+Saved input tensor: /gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0/input-20250202_1115.pt
