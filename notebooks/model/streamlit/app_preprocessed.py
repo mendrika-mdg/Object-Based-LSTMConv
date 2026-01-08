@@ -195,4 +195,10 @@ if data_available:
     folium.LayerControl(collapsed=True).add_to(m)
 
 
-st_folium(m, use_container_width=True, height=1024)
+st_folium(
+    m,
+    key="pancast_map",
+    use_container_width=True,
+    height=1024,
+    returned_objects=[]
+)
