@@ -3,8 +3,12 @@
 
 JOB_SCRIPT="/home/users/mendrika/Object-Based-LSTMConv/notebooks/model/training/train-ensemble-africa.sh"
 
-LEAD_TIMES=(60 90)
-SEEDS=(40 134 676 1998 2025)
+# LEAD_TIMES=(60 90)
+# SEEDS=(40 134 676 1998 2025)
+
+LEAD_TIMES=(30 60 90 120)
+SEEDS=(41 134 676 1998 2025)
+
 LR=7e-5
 
 for LEAD_TIME in "${LEAD_TIMES[@]}"; do

@@ -1,9 +1,0 @@
-Loaded scaler from /home/users/mendrika/Object-Based-LSTMConv/outputs/scaler-africa/scaler_realcores_online.pt
-Applying scaler to partition=VAL
-Found 31,569 files to process
-Failed to load /gws/nopw/j04/wiser_ewsa/mrakotomanga/pancast/raw/inputs_t0/input-20231128_1445.pt: 
-Finished scaling val
-Successful files : 31568
-Failed files     : 1
-Saved to /work/scratch-nopw2/mendrika/pancast/preprocessed/inputs_t0/val
-Job completed successfully.

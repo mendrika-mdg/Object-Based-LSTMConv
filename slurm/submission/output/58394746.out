@@ -1,8 +1,0 @@
-Loaded scaler from /home/users/mendrika/Object-Based-LSTMConv/outputs/scaler-africa/scaler_realcores_online.pt
-Applying scaler to partition=TRAIN
-Found 608,418 files to process
-Finished scaling train
-Successful files : 608418
-Failed files     : 0
-Saved to /work/scratch-nopw2/mendrika/pancast/preprocessed/inputs_t0/train
-Job completed successfully.

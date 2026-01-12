@@ -9,12 +9,13 @@ from datetime import datetime, timedelta
 sys.path.insert(1, "/home/users/mendrika/SSA/SA/module")
 import snflics # type: ignore
 
+
 def load_geodata():
     geodata = np.load(
-        "/gws/nopw/j04/wiser_ewsa/mrakotomanga/lat_lon_2268_2080.npz",
+        "/gws/ssde/j25b/swift/rt_cores/geoloc_grids/nxny2268_2080_nxnyds164580_blobdx0.04491576_arean41_n27_27_79.nc",
         mmap_mode="r"
     )
-    return geodata["lat"], geodata["lon"]
+    return geodata["lats_mid"], geodata["lons_mid"]
 
 # For a given region, add yx bounds and context domain
 y_min, y_max = 48, 2062

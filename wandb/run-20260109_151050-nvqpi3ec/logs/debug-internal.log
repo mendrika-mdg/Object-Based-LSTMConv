@@ -1,0 +1,15 @@
+{"time":"2026-01-09T15:10:51.453632072Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20260109_151050-nvqpi3ec/logs/debug-core.log"}
+{"time":"2026-01-09T15:10:51.710491883Z","level":"INFO","msg":"stream: created new stream","id":"nvqpi3ec"}
+{"time":"2026-01-09T15:10:51.710527773Z","level":"INFO","msg":"stream: started","id":"nvqpi3ec"}
+{"time":"2026-01-09T15:10:51.710543153Z","level":"INFO","msg":"handler: started","stream_id":"nvqpi3ec"}
+{"time":"2026-01-09T15:10:51.710541573Z","level":"INFO","msg":"writer: Do: started","stream_id":"nvqpi3ec"}
+{"time":"2026-01-09T15:10:51.710561453Z","level":"INFO","msg":"sender: started","stream_id":"nvqpi3ec"}
+{"time":"2026-01-09T15:10:52.170511719Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-01-09T18:18:23.777985817Z","level":"INFO","msg":"stream: closing","id":"nvqpi3ec"}
+{"time":"2026-01-09T18:18:23.778047097Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-01-09T18:18:23.778239197Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-01-09T18:18:24.56483252Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-09T18:18:24.777356835Z","level":"INFO","msg":"handler: closed","stream_id":"nvqpi3ec"}
+{"time":"2026-01-09T18:18:24.777389486Z","level":"INFO","msg":"writer: Close: closed","stream_id":"nvqpi3ec"}
+{"time":"2026-01-09T18:18:24.777417386Z","level":"INFO","msg":"sender: closed","stream_id":"nvqpi3ec"}
+{"time":"2026-01-09T18:18:24.779190234Z","level":"INFO","msg":"stream: closed","id":"nvqpi3ec"}

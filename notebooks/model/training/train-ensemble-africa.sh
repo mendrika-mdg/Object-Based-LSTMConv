@@ -36,7 +36,7 @@ fi
 echo "Starting distributed training for lead_time=${lead_time}, seed=${seed}, lr=${lr}"
 
 torchrun --standalone --nproc_per_node=4 \
-    /home/users/mendrika/Object-Based-LSTMConv/notebooks/model/training/pancast.py \
+    /home/users/mendrika/Object-Based-LSTMConv/notebooks/model/training/pancast_64_rasterised.py \
     "$lead_time" "$seed" "$lr"
 
 echo "Training completed at $(date)"

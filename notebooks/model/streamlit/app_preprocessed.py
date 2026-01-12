@@ -4,7 +4,7 @@ from folium.raster_layers import ImageOverlay
 from streamlit_folium import st_folium
 from datetime import datetime, timedelta
 
-from utils_preprocessed import (
+from utils_preprocessed_64 import (
     load_models,
     load_input_tensor,
     load_ground_truth,

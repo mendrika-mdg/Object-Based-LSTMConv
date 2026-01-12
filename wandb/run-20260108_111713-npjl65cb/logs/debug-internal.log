@@ -1,0 +1,15 @@
+{"time":"2026-01-08T11:17:13.89405072Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20260108_111713-npjl65cb/logs/debug-core.log"}
+{"time":"2026-01-08T11:17:14.149339197Z","level":"INFO","msg":"stream: created new stream","id":"npjl65cb"}
+{"time":"2026-01-08T11:17:14.149379446Z","level":"INFO","msg":"stream: started","id":"npjl65cb"}
+{"time":"2026-01-08T11:17:14.149396806Z","level":"INFO","msg":"sender: started","stream_id":"npjl65cb"}
+{"time":"2026-01-08T11:17:14.149409736Z","level":"INFO","msg":"handler: started","stream_id":"npjl65cb"}
+{"time":"2026-01-08T11:17:14.149456475Z","level":"INFO","msg":"writer: Do: started","stream_id":"npjl65cb"}
+{"time":"2026-01-08T11:17:14.776298413Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-01-08T15:31:30.270315263Z","level":"INFO","msg":"stream: closing","id":"npjl65cb"}
+{"time":"2026-01-08T15:31:30.270363702Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-01-08T15:31:30.270575417Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-01-08T15:31:30.877582747Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-08T15:31:31.098025696Z","level":"INFO","msg":"handler: closed","stream_id":"npjl65cb"}
+{"time":"2026-01-08T15:31:31.098054176Z","level":"INFO","msg":"sender: closed","stream_id":"npjl65cb"}
+{"time":"2026-01-08T15:31:31.098046826Z","level":"INFO","msg":"writer: Close: closed","stream_id":"npjl65cb"}
+{"time":"2026-01-08T15:31:31.100593578Z","level":"INFO","msg":"stream: closed","id":"npjl65cb"}
