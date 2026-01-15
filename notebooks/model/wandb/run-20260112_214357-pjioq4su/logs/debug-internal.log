@@ -1,0 +1,23 @@
+{"time":"2026-01-12T21:43:58.723754472Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20260112_214357-pjioq4su/logs/debug-core.log"}
+{"time":"2026-01-12T21:43:58.995417054Z","level":"INFO","msg":"stream: created new stream","id":"pjioq4su"}
+{"time":"2026-01-12T21:43:58.995443924Z","level":"INFO","msg":"stream: started","id":"pjioq4su"}
+{"time":"2026-01-12T21:43:58.995472474Z","level":"INFO","msg":"handler: started","stream_id":"pjioq4su"}
+{"time":"2026-01-12T21:43:58.995472604Z","level":"INFO","msg":"sender: started","stream_id":"pjioq4su"}
+{"time":"2026-01-12T21:43:58.995486303Z","level":"INFO","msg":"writer: Do: started","stream_id":"pjioq4su"}
+{"time":"2026-01-12T21:43:59.363083532Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"An internal error occurred. Please contact support.\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-12T21:44:01.945139471Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"An internal error occurred. Please contact support.\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-12T21:44:06.574218917Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"An internal error occurred. Please contact support.\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-12T21:44:15.848404486Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"An internal error occurred. Please contact support.\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-12T21:44:34.481623938Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"An internal error occurred. Please contact support.\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-12T21:45:13.140045482Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"An internal error occurred. Please contact support.\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-12T21:45:29.434519971Z","level":"INFO","msg":"stream: closing","id":"pjioq4su"}
+{"time":"2026-01-12T21:46:13.344514537Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"An internal error occurred. Please contact support.\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-12T21:47:13.524930787Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"An internal error occurred. Please contact support.\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-12T21:48:13.676686723Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"An internal error occurred. Please contact support.\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2026-01-12T21:49:14.040886668Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2026-01-12T21:49:14.040980827Z","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /dev-pancast-64-sharpened not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2026-01-12T21:49:14.059297824Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-12T21:49:14.059334213Z","level":"INFO","msg":"handler: closed","stream_id":"pjioq4su"}
+{"time":"2026-01-12T21:49:14.059359883Z","level":"INFO","msg":"writer: Close: closed","stream_id":"pjioq4su"}
+{"time":"2026-01-12T21:49:14.059402512Z","level":"INFO","msg":"sender: closed","stream_id":"pjioq4su"}
+{"time":"2026-01-12T21:49:14.060596854Z","level":"INFO","msg":"stream: closed","id":"pjioq4su"}

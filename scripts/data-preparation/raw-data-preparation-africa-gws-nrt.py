@@ -45,7 +45,7 @@ def load_geodata():
 
 # For a given region, add yx bounds and context domain
 y_min, y_max = 48, 2062
-x_min, x_max = 77, 2262
+x_min, x_max = 76, 2262
 
 # Import geodata and crop it accordingly
 lats, lons = load_geodata()
@@ -203,7 +203,6 @@ def generate_fictional_storm(context_lat_min, context_lat_max,
     }
 
     return ("artificial", storm)
-
 
 def pad_observed_storms(storm_db, nb_x0,
                         context_lat_min, context_lat_max,

@@ -1,0 +1,18 @@
+{"time":"2026-01-13T02:21:39.425722351Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20260113_022139-tf401gkl/logs/debug-core.log"}
+{"time":"2026-01-13T02:21:39.673577855Z","level":"INFO","msg":"stream: created new stream","id":"tf401gkl"}
+{"time":"2026-01-13T02:21:39.673616904Z","level":"INFO","msg":"stream: started","id":"tf401gkl"}
+{"time":"2026-01-13T02:21:39.673635194Z","level":"INFO","msg":"sender: started","stream_id":"tf401gkl"}
+{"time":"2026-01-13T02:21:39.673632844Z","level":"INFO","msg":"handler: started","stream_id":"tf401gkl"}
+{"time":"2026-01-13T02:21:39.673656023Z","level":"INFO","msg":"writer: Do: started","stream_id":"tf401gkl"}
+{"time":"2026-01-13T02:21:40.083348602Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-01-13T02:43:27.260731792Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/mgrakotomanga-university-of-leeds/dev-pancast-64-sharpened/tf401gkl/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-01-13T03:42:29.120794198Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/graphql","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-01-13T03:44:12.522417114Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/mgrakotomanga-university-of-leeds/dev-pancast-64-sharpened/tf401gkl/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-01-13T06:14:50.334715678Z","level":"INFO","msg":"stream: closing","id":"tf401gkl"}
+{"time":"2026-01-13T06:14:50.334761207Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-01-13T06:14:50.335013753Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-01-13T06:14:51.109731018Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-13T06:14:53.092259046Z","level":"INFO","msg":"handler: closed","stream_id":"tf401gkl"}
+{"time":"2026-01-13T06:14:53.092292375Z","level":"INFO","msg":"writer: Close: closed","stream_id":"tf401gkl"}
+{"time":"2026-01-13T06:14:53.092354514Z","level":"INFO","msg":"sender: closed","stream_id":"tf401gkl"}
+{"time":"2026-01-13T06:14:53.094187031Z","level":"INFO","msg":"stream: closed","id":"tf401gkl"}

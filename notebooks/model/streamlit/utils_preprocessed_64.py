@@ -95,8 +95,10 @@ def load_input_tensor(time_dict):
 
     if int(time_dict["year"]) <= 2024:
         base = "/gws/ssde/j25b/swift/mendrika/pancast/raw/inputs_t0"
-    else:
+    elif int(time_dict["year"]) == 2025:
         base = "/gws/ssde/j25b/swift/mendrika/pancast/raw/2025/inputs_t0"
+    else:
+        base = "/gws/ssde/j25b/swift/mendrika/pancast/raw/2026/inputs_t0"
 
     path = os.path.join(base, fname)
 
@@ -112,7 +114,7 @@ def load_models(lead_time):
         ckpt = os.path.join(
             ENSEMBLE_DIRS[lead_time],
             seed,
-            "lr7e-05/best-pancast.ckpt",
+            "best-pancast.ckpt",
         )
         if os.path.exists(ckpt):
             m = Core2MapModel.load_from_checkpoint(ckpt, map_location=DEVICE)

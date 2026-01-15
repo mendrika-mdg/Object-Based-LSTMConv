@@ -1,0 +1,16 @@
+{"time":"2026-01-12T12:01:04.042035036Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20260112_120103-1hgwsy7x/logs/debug-core.log"}
+{"time":"2026-01-12T12:01:04.285338734Z","level":"INFO","msg":"stream: created new stream","id":"1hgwsy7x"}
+{"time":"2026-01-12T12:01:04.285372264Z","level":"INFO","msg":"stream: started","id":"1hgwsy7x"}
+{"time":"2026-01-12T12:01:04.285394983Z","level":"INFO","msg":"sender: started","stream_id":"1hgwsy7x"}
+{"time":"2026-01-12T12:01:04.285393273Z","level":"INFO","msg":"writer: Do: started","stream_id":"1hgwsy7x"}
+{"time":"2026-01-12T12:01:04.285421393Z","level":"INFO","msg":"handler: started","stream_id":"1hgwsy7x"}
+{"time":"2026-01-12T12:01:04.801156502Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-01-12T16:57:50.146727438Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-01-12T19:44:29.312119586Z","level":"INFO","msg":"stream: closing","id":"1hgwsy7x"}
+{"time":"2026-01-12T19:44:29.312157425Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-01-12T19:44:29.312422731Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-01-12T19:44:29.793832215Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-12T19:44:29.98087571Z","level":"INFO","msg":"handler: closed","stream_id":"1hgwsy7x"}
+{"time":"2026-01-12T19:44:29.980943619Z","level":"INFO","msg":"sender: closed","stream_id":"1hgwsy7x"}
+{"time":"2026-01-12T19:44:29.980941279Z","level":"INFO","msg":"writer: Close: closed","stream_id":"1hgwsy7x"}
+{"time":"2026-01-12T19:44:29.982980095Z","level":"INFO","msg":"stream: closed","id":"1hgwsy7x"}

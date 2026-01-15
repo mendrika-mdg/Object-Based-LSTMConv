@@ -1,0 +1,17 @@
+{"time":"2026-01-12T17:33:06.965423526Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20260112_173306-tfrei470/logs/debug-core.log"}
+{"time":"2026-01-12T17:33:07.342268607Z","level":"INFO","msg":"stream: created new stream","id":"tfrei470"}
+{"time":"2026-01-12T17:33:07.342310546Z","level":"INFO","msg":"stream: started","id":"tfrei470"}
+{"time":"2026-01-12T17:33:07.342335995Z","level":"INFO","msg":"writer: Do: started","stream_id":"tfrei470"}
+{"time":"2026-01-12T17:33:07.342349325Z","level":"INFO","msg":"sender: started","stream_id":"tfrei470"}
+{"time":"2026-01-12T17:33:07.342371115Z","level":"INFO","msg":"handler: started","stream_id":"tfrei470"}
+{"time":"2026-01-12T17:33:07.997361067Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-01-12T20:24:24.934332879Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-01-12T23:19:40.013205226Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2026-01-13T00:54:25.14765459Z","level":"INFO","msg":"stream: closing","id":"tfrei470"}
+{"time":"2026-01-13T00:54:25.14767859Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-01-13T00:54:25.157706266Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-01-13T00:54:25.748861381Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-13T00:54:25.946997637Z","level":"INFO","msg":"handler: closed","stream_id":"tfrei470"}
+{"time":"2026-01-13T00:54:25.947062946Z","level":"INFO","msg":"sender: closed","stream_id":"tfrei470"}
+{"time":"2026-01-13T00:54:25.947049176Z","level":"INFO","msg":"writer: Close: closed","stream_id":"tfrei470"}
+{"time":"2026-01-13T00:54:25.950464077Z","level":"INFO","msg":"stream: closed","id":"tfrei470"}

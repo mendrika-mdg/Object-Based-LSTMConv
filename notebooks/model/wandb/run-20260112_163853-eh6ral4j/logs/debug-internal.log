@@ -1,0 +1,19 @@
+{"time":"2026-01-12T16:38:53.435983866Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20260112_163853-eh6ral4j/logs/debug-core.log"}
+{"time":"2026-01-12T16:38:53.710931055Z","level":"INFO","msg":"stream: created new stream","id":"eh6ral4j"}
+{"time":"2026-01-12T16:38:53.710976494Z","level":"INFO","msg":"stream: started","id":"eh6ral4j"}
+{"time":"2026-01-12T16:38:53.710989334Z","level":"INFO","msg":"writer: Do: started","stream_id":"eh6ral4j"}
+{"time":"2026-01-12T16:38:53.711009584Z","level":"INFO","msg":"sender: started","stream_id":"eh6ral4j"}
+{"time":"2026-01-12T16:38:53.710996794Z","level":"INFO","msg":"handler: started","stream_id":"eh6ral4j"}
+{"time":"2026-01-12T16:38:54.240109075Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-01-12T16:50:39.765453283Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/mgrakotomanga-university-of-leeds/dev-pancast-64-sharpened/eh6ral4j/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-01-12T20:33:17.461634758Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/mgrakotomanga-university-of-leeds/dev-pancast-64-sharpened/eh6ral4j/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-01-12T20:37:35.014212093Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/mgrakotomanga-university-of-leeds/dev-pancast-64-sharpened/eh6ral4j/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-01-12T21:23:54.799403609Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/graphql","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-01-12T22:49:16.807500897Z","level":"INFO","msg":"stream: closing","id":"eh6ral4j"}
+{"time":"2026-01-12T22:49:16.807556916Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-01-12T22:49:16.807829583Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-01-12T22:49:17.256034665Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-12T22:49:17.452041445Z","level":"INFO","msg":"handler: closed","stream_id":"eh6ral4j"}
+{"time":"2026-01-12T22:49:17.452055345Z","level":"INFO","msg":"writer: Close: closed","stream_id":"eh6ral4j"}
+{"time":"2026-01-12T22:49:17.452096084Z","level":"INFO","msg":"sender: closed","stream_id":"eh6ral4j"}
+{"time":"2026-01-12T22:49:17.454379871Z","level":"INFO","msg":"stream: closed","id":"eh6ral4j"}

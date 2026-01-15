@@ -1,7 +1,0 @@
-{"time":"2026-01-11T11:21:25.249734929Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"wandb/run-20260111_112125-dodw86eg/logs/debug-core.log"}
-{"time":"2026-01-11T11:21:25.497764417Z","level":"INFO","msg":"stream: created new stream","id":"dodw86eg"}
-{"time":"2026-01-11T11:21:25.497806547Z","level":"INFO","msg":"stream: started","id":"dodw86eg"}
-{"time":"2026-01-11T11:21:25.497825117Z","level":"INFO","msg":"sender: started","stream_id":"dodw86eg"}
-{"time":"2026-01-11T11:21:25.497836037Z","level":"INFO","msg":"writer: Do: started","stream_id":"dodw86eg"}
-{"time":"2026-01-11T11:21:25.497819097Z","level":"INFO","msg":"handler: started","stream_id":"dodw86eg"}
-{"time":"2026-01-11T11:21:25.999781003Z","level":"INFO","msg":"Starting system monitor"}

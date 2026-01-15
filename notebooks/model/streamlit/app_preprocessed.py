@@ -4,7 +4,7 @@ from folium.raster_layers import ImageOverlay
 from streamlit_folium import st_folium
 from datetime import datetime, timedelta
 
-from utils_preprocessed_64 import (
+from utils_preprocessed_64_sharp import (
     load_models,
     load_input_tensor,
     load_ground_truth,
@@ -44,7 +44,7 @@ st.markdown(
 col_date = st.columns(5)
 
 with col_date[0]:
-    year = st.selectbox("Year", range(2004, 2026), index=20)
+    year = st.selectbox("Year", range(2020, 2027), index=4)
 with col_date[1]:
     month = st.selectbox("Month", range(1, 13), index=6)
 with col_date[2]:
@@ -154,7 +154,7 @@ if data_available:
     pred = preds[int(lead_time)]
     gt = gts[int(lead_time)]
 
-    pred = rescale_after_threshold(pred, floor=0.1)
+    pred = rescale_after_threshold(pred, floor=0.12)
     pred = gamma_boost(pred, gamma=0.6)
     pred = smooth_prediction(pred, sigma=0.8)
 
