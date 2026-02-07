@@ -1,14 +1,37 @@
-Nowcast pipeline started at Thu 15 Jan 18:50:08 GMT 2026
+Nowcast pipeline started at Sat  7 Feb 14:30:10 GMT 2026
 Activating virtual environment...
 Running nowcast generation script...
 Getting NRT information
-Nowcast origin: {'year': '2026', 'month': '01', 'day': '15', 'hour': '18', 'minute': '15'}
-Nowcasts from {'year': '2026', 'month': '01', 'day': '15', 'hour': '18', 'minute': '15'} already produced
+Nowcast origin: {'year': '2026', 'month': '02', 'day': '07', 'hour': '14', 'minute': '00'}
+File exists: True
+All past files exist: True
+Loading models
+Generating nowcasts
+File processed, saving logs to /work/scratch-nopw2/mendrika/pancast-live/log/processed_times.csv and sending signal to /work/scratch-nopw2/mendrika/pancast-live/log/ready_geotiff.csv
 Deactivating DL virtual environment...
 Loading Jaspy environment...
 Generating GeoTIFFs...
 Writer initialised for mendrika_pancast
 Getting file to be processed
-Time to process: {'year': '2026', 'month': '01', 'day': '15', 'hour': '18', 'minute': '15'}
-File already processed
-Nowcast pipeline finished at Thu 15 Jan 18:50:27 GMT 2026
+Time to process: {'year': '2026', 'month': '02', 'day': '07', 'hour': '14', 'minute': '00'}
+Loading nowcasts
+Generating GeoTIFFs
+Resampling on to regular grid
+Reading nzp weights
+Generating GeoTIFF
+File /gws/ssde/j25b/swift/UKCEH_nowcast_portal/mendrika_pancast/20260207/nowcast_202602071400_0030.tif written
+Resampling on to regular grid
+Reading nzp weights
+Generating GeoTIFF
+File /gws/ssde/j25b/swift/UKCEH_nowcast_portal/mendrika_pancast/20260207/nowcast_202602071400_0060.tif written
+Resampling on to regular grid
+Reading nzp weights
+Generating GeoTIFF
+File /gws/ssde/j25b/swift/UKCEH_nowcast_portal/mendrika_pancast/20260207/nowcast_202602071400_0090.tif written
+Resampling on to regular grid
+Reading nzp weights
+Generating GeoTIFF
+File /gws/ssde/j25b/swift/UKCEH_nowcast_portal/mendrika_pancast/20260207/nowcast_202602071400_0120.tif written
+Keeping record
+Done
+Nowcast pipeline finished at Sat  7 Feb 14:32:32 GMT 2026

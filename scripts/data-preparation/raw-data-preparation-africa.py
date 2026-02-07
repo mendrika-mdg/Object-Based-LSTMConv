@@ -9,9 +9,10 @@ from datetime import datetime, timedelta
 sys.path.insert(1, "/home/users/mendrika/SSA/SA/module")
 import snflics # type: ignore
 
+
 def load_geodata():
     geodata = np.load(
-        "/work/scratch-nopw2/mendrika/lat_lon_2268_2080.npz",
+        "/gws/nopw/j04/cocoon/SSA_domain/lat_lon_2268_2080.npz",
         mmap_mode="r"
     )
     return geodata["lat"], geodata["lon"]
@@ -259,10 +260,10 @@ def process_file(file_t, nb_x0,
 NB_X0 = 100
 
 YEAR = sys.argv[1]
+MONTH  = sys.argv[2]
 
 DATA_PATH = "/gws/nopw/j04/cocoon/SSA_domain/ch9_wavelet/"
-
-YEAR_PATH = os.path.join(DATA_PATH, YEAR)
+YEAR_PATH = os.path.join(DATA_PATH, YEAR, MONTH)
 
 from glob import glob
 print(f"Scanning {YEAR_PATH}", flush=True)
@@ -273,12 +274,14 @@ all_files = sorted(
 
 print(len(all_files), flush=True)
 
+if  len(all_files) ==0:
+    sys.exit("No data found")
 
-OUTPUT_FOLDER = "/work/scratch-nopw2/mendrika/pancast/raw"
+OUTPUT_FOLDER = "/gws/ssde/j25b/swift/mendrika/pancast/test"
 
 # Lags in minutes: from t0-2h to t0, every 30 minutes
 lag_before_t = [120, 90, 60, 30, 0]
-
+lead_times = [30, 60, 90, 120, 180]
 
 print("YEAR =", YEAR)
 print("Total files found:", len(all_files))
@@ -295,7 +298,6 @@ for file_t in all_files[:]:
 
     print(file_before_t)
 
-    lead_times = [30, 60, 90, 120, 180]
     file_lead_times = [
         DATA_PATH + update_hour(time_t, hours_to_add=0, minutes_to_add=h)["path"]
         for h in lead_times

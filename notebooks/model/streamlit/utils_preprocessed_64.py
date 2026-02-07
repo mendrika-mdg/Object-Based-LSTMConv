@@ -33,7 +33,6 @@ ENSEMBLE_DIRS = {
 SCALER_PATH = "/home/users/mendrika/Object-Based-LSTMConv/outputs/scaler-africa/scaler_realcores_online.pt"
 COLS_TO_SCALE = range(4, 12)
 
-
 def add_minutes(time_dict, minutes):
     t = datetime(
         int(time_dict["year"]),

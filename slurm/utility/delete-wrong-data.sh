@@ -5,8 +5,8 @@
 #SBATCH --qos=standard
 #SBATCH --partition=standard
 #SBATCH --account=wiser-ewsa
-#SBATCH -o /home/users/mendrika/Zambia-Intercomparison/slurm/submission-logs/output/%j.out
-#SBATCH -e /home/users/mendrika/Zambia-Intercomparison/slurm/submission-logs/error/%j.err
+#SBATCH -o /home/users/mendrika/Object-Based-LSTMConv/slurm/submission-logs/output/%j.out
+#SBATCH -e /home/users/mendrika/Object-Based-LSTMConv/slurm/submission-logs/error/%j.err
 
 set -euo pipefail
 path="$1"

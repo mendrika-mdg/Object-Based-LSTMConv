@@ -17,13 +17,15 @@ export OMP_NUM_THREADS=1
 export HDF5_USE_FILE_LOCKING=FALSE
 
 year=$1
-script=/home/users/mendrika/Object-Based-LSTMConv/scripts/data-preparation/raw-data-preparation-africa-gws-nrt.py
+month=$2 
+
+script=/home/users/mendrika/Object-Based-LSTMConv/scripts/data-preparation/raw-data-preparation-africa-gws-nrt-nox0.py
 
 if [ ! -f "$script" ]; then
     echo "Error: Python script not found at $script"
     exit 1
 fi
 
-python "$script" "$year"
+python "$script" "$year" "$month"
 
 echo "Job completed successfully."

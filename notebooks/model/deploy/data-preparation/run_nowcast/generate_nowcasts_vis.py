@@ -160,8 +160,8 @@ def generate_nowcasts(time_t0: dict, models: dict) -> None:
 
     for lt in LEAD_TIMES_MIN:
         pred = ensemble_predict(models[lt], input_processed).cpu().numpy()
-        pred = rescale_after_threshold(pred, floor=0.05) #0.15
-        pred = gamma_boost(pred, gamma=1)              #0.8 
+        pred = rescale_after_threshold(pred, floor=0.12) #0.12 is the best
+        pred = gamma_boost(pred, gamma=0.8) #0.8 is the best
         pred = smooth_prediction(pred, sigma=0.8)
 
         out_path = f"{OUTPUT_FOLDER}/nowcasts_t{lt:03d}/nowcast_t{lt:03d}_from_{nowcast_origin}.npy"

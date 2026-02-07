@@ -1,0 +1,2 @@
+lead_time_min,radius_km,exclusion_radius_km,vmax_kmh,threshold,youden_j,hits,misses,false_alarms,correct_negatives,POD,FAR,n_total
+120,30,230.0,100.0,0.045477334409952164,0.2737175528185659,2040,808,8100,10202,0.7162921348314607,0.7988165680473372,21150
